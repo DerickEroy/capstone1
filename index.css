@@ -391,14 +391,13 @@ footer .row {
 /* Project Section Start */
 #projects {
 	margin-top: 125px;
-	max-width: 85%;
+	max-width: 85%;	
 }
 
 #project {
 	background-color: white;
 	padding: 25px;
 	color: #305252;
-	min-width: 450px;
 	max-width: 450px;
 	margin: 0 5px;
 	margin-bottom: 50px;
@@ -628,6 +627,11 @@ footer .row {
 #univ {
   margin-top: 75px;
 }
+
+#project {
+	min-width: 450px;
+}
+
 
 }
 /* 992px to 1800px End */
@@ -960,6 +964,10 @@ footer .row {
   object-fit: contain;
 }
 
+
+#project {
+	min-width: 0px;
+}
 
 }
 /* 575px End */
