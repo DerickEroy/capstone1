@@ -201,8 +201,8 @@ nav ul {
 	border: 7px solid white ;
 	outline: 2px solid #9c9c9c;
 	max-width: 375px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-bottom: 50px;
 	column-gap: 15px;
 	transition: transform 0.25s;
@@ -285,8 +285,6 @@ nav ul {
 #contactUsImage img {
 	object-fit: contain;
 	width: 100%;
-	margin-top: auto;
-	margin-bottom: auto;
 }
 /* Contact Us Form End */
 
@@ -313,6 +311,8 @@ nav ul {
 }
 
 #starDev {
+		margin-left: auto;
+		margin-right: auto;
 	margin-bottom: 35px;
 }
 
@@ -357,10 +357,13 @@ footer .row {
 }
 
 #websiteFooterImages img{
-	margin-left: 20px;
-	margin-right: 20px;
 	width: 50px;
 }
+
+#websiteFooterImages a {
+	margin: 20px;
+}
+
 
 #websiteFooter p {
 	margin-left: auto;
@@ -395,9 +398,9 @@ footer .row {
 	background-color: white;
 	padding: 25px;
 	color: #305252;
+	min-width: 450px;
 	max-width: 450px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 5px;
 	margin-bottom: 50px;
 	border-radius: 15px;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.075);
@@ -860,7 +863,7 @@ footer .row {
 }
 
 #starDev {
-  justify-content: ;
+  justify-content: center;
 }
 
 /* Full-Stack Web Developer End */
