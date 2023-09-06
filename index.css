@@ -81,7 +81,7 @@
 .tools-list-container {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
 	margin-top: 3rem;
 }
@@ -286,15 +286,10 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 	/* MY PROJECT END */
-}
 
 
 @media only screen and (max-width: 768px) {
-	/* TOOLS START */
-	.tools-list-container {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	/* TOOLS END */
+
 }
 
 
